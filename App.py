@@ -8,3 +8,6 @@ class calculadora:
     
     def Divisao(self,a,b):
         return a/b
+    
+    def Multiplicacao(self,a,b):
+        return a*b
