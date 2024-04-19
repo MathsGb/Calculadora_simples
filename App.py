@@ -6,3 +6,5 @@ class calculadora:
     def Subtracao(self, a, b):
         return a - b
     
+    def Divisao(self,a,b):
+        return a/b

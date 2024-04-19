@@ -14,5 +14,11 @@ class teste_SomaNumerica(unittest.TestCase):
         self.assertEquals(self.origin.Subtracao(25,50), -25)
         self.assertEquals(self.origin.Subtracao(-5,-10), 5)
 
+    def test_div(self):
+        self.assertEquals(self.origin.Divisao(10,2), 5)
+        self.assertEquals(self.origin.Divisao(4,1), 4)
+        self.assertEquals(self.origin.Divisao(1,5), 0.2)
+        #self.assertEquals(self.origin.Divisao(20,0), error)
+
 if __name__ == "__main__":
     unittest.main()
